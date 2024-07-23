@@ -1,50 +1,69 @@
-body{
+body {
     box-sizing: border-box;
     margin: 0 auto;
 }
-ul{
+
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
+    font-size: 30px;
 }
-h1, h2, h3, h4, h5, h6, p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 30px;
 }
-.container{
+
+.container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
-.header{
+
+.header {
     background-color: #aa43a2;
     padding: 30px 0;
 }
-.header-wrap{
+
+.header-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     color: #fec830;
     font-size: 30px;
     font-weight: 700;
 }
-.nav-link{
+
+.nav-link {
     font-size: 18px;
     color: black;
 }
 
 
 /* Main */
-.main{
+.main {
     background-color: #fdd875;
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -52,21 +71,24 @@ h1, h2, h3, h4, h5, h6, p{
     list-style: none;
     border-radius: 4px;
 }
-.nav-item{
+
+.nav-item {
     padding: 10px;
     border-radius: 4px;
     text-decoration: none;
     color: black;
     background-color: rgb(247, 247, 247);
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     cursor: pointer;
 }
+
 .nav-item:hover,
-.nav-item:focus{
+.nav-item:focus {
     background-color: white;
 }
-.title-wrap{
+
+.title-wrap {
     background-color: white;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -74,25 +96,29 @@ h1, h2, h3, h4, h5, h6, p{
     box-shadow: 0px 1px 1px RGB(0 0 0/12%), 0px 4px 4px RGB(0 0 0/6%), 1px 4px 6px RGB(0 0 0/16%);
     border-radius: 20px;
 }
-.title{
+
+.title {
     font-size: 40px;
     text-align: center;
 }
-.news{
+
+.news {
     background-color: rgb(247, 247, 247);
     padding: 30px;
     margin-top: 50px;
     border: 1px solid gray;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     border-radius: 20px;
 }
-.news-list{
+
+.news-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.new{
+
+.new {
     width: 330px;
     padding: 15px;
     background-color: #fff;
@@ -100,69 +126,81 @@ h1, h2, h3, h4, h5, h6, p{
     border-radius: 8px;
     margin-bottom: 30px;
 }
+
 .new:hover,
 .new:focus {
     box-shadow: 0px 1px 1px RGB(0 0 0/12%), 0px 4px 4px RGB(0 0 0/6%), 1px 4px 6px RGB(0 0 0/16%);
 }
-.cat-card-img{
+
+.cat-card-img {
     width: 100%;
     height: 240px;
 }
-.new-text-wrap{
+
+.new-text-wrap {
     margin-top: 30px;
     color: black;
 }
-.new-text{
+
+.new-text {
     margin-top: 15px;
 }
 
 
 
 /* Footer */
-.footer{
+.footer {
     background-color: #aa43a2;
     padding: 30px 0;
 }
+
 .footer-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer-list{
+
+.footer-list {
     display: flex;
     justify-content: end;
 }
-.footer-link{
+
+.footer-link {
     color: white;
     font-size: 20px;
 }
-.tel{
+
+.tel {
     margin-right: 20px;
 }
 
 
 
 /* Page about cats */
-.cat-container{
+.cat-container {
     background-color: rgb(247, 247, 247);
     padding: 30px;
     border: 1px solid gray;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     border-radius: 20px;
     font-size: 20px;
 }
-.cat-text{
+
+.cat-text {
     margin-top: 30px;
 }
-.cat-card{
+
+.cat-card {
     margin-top: 50px;
 }
-.cat-card-title{
+
+.cat-card-title {
     text-align: center;
     font-size: 30px;
 }
-.cat-card-img{
+
+.cat-card-img {
     margin: 25px auto;
     width: 650px;
     height: 100%;
@@ -170,6 +208,7 @@ h1, h2, h3, h4, h5, h6, p{
     justify-content: center;
 
 }
+
 .new-one {
     margin: 25px auto;
     width: 327px;
@@ -177,13 +216,15 @@ h1, h2, h3, h4, h5, h6, p{
     display: flex;
     justify-content: center;
 }
-.new-two{
+
+.new-two {
     margin: 25px auto;
     width: 327px;
     height: 221px;
     display: flex;
     justify-content: center;
 }
+
 .new-three {
     margin: 25px auto;
     width: 327px;
@@ -205,19 +246,24 @@ h1, h2, h3, h4, h5, h6, p{
     border-radius: 20px;
     font-size: 20px;
 }
-.dog-text{
+
+.dog-text {
     margin-top: 30px;
 }
+
 .dog-card {
     margin-top: 50px;
 }
-.dog-card-title{
+
+.dog-card-title {
     font-size: 24px;
 
 }
-.dog-card-text{
+
+.dog-card-text {
     margin-top: 25px;
 }
+
 .dog-card-img {
     margin: 25px auto;
     width: 650px;
@@ -238,21 +284,25 @@ h1, h2, h3, h4, h5, h6, p{
     border-radius: 20px;
     font-size: 20px;
 }
+
 .study-text {
     margin-top: 30px;
 }
-.study-img{
+
+.study-img {
     margin: 25px auto;
     width: 900px;
     height: 100%;
     display: flex;
     justify-content: center;
 }
-.study-list{
+
+.study-list {
     list-style: square;
     margin-left: 20px;
 }
-.study-item{
+
+.study-item {
     margin-top: 10px;
 }
 
@@ -268,52 +318,39 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 20px;
     font-size: 30px;
 }
+
 .contact-text {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
 .contact-link {
     color: #aa43a2;
 }
+
 .contact-link:hover,
 .contact-link:focus {
     color: #8a1381;
     font-weight: 700;
 }
+
 .contact-img {
     height: 100%;
     border: 1px solid rgb(215, 215, 215);
     border-radius: 20px;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.img {
+    width: 260px;
+    height: 175px;
+}
+.p {
+    font-size: 20px;
+}
+.map {
+    width: 415px;
+}
 
 
 
