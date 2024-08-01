@@ -11,7 +11,6 @@ ul {
 
 a {
     text-decoration: none;
-    font-size: 30px;
 }
 
 h1,
@@ -22,9 +21,6 @@ h5,
 h6,
 p {
     margin: 0;
-    margin-left: 45px;
-    margin-right: 45px;
-    font-size: 30px;
 }
 
 .container {
@@ -168,6 +164,7 @@ p {
 .footer-link {
     color: white;
     font-size: 20px;
+    margin-right: 10px;
 }
 
 .tel {
@@ -201,7 +198,6 @@ p {
 }
 
 .cat-card-img {
-    margin: 25px auto;
     width: 650px;
     height: 100%;
     display: flex;
@@ -210,7 +206,6 @@ p {
 }
 
 .new-one {
-    margin: 25px auto;
     width: 327px;
     height: 221px;
     display: flex;
@@ -218,7 +213,6 @@ p {
 }
 
 .new-two {
-    margin: 25px auto;
     width: 327px;
     height: 221px;
     display: flex;
@@ -226,7 +220,6 @@ p {
 }
 
 .new-three {
-    margin: 25px auto;
     width: 327px;
     height: 221px;
     display: flex;
@@ -341,16 +334,40 @@ p {
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+
 .img {
     width: 260px;
     height: 175px;
 }
+
 .p {
     font-size: 20px;
 }
+
 .map {
     width: 415px;
 }
 
+.cat-12_ {
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 36px;
+}
 
+.h2 {
+    font-size: 40px;
+    text-align: center;
+}
 
+.news-text-1 {
+    margin-bottom: 25px;
+}
+.p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
